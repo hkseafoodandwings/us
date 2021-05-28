@@ -1,0 +1,74 @@
+body
+{
+  font-family: 'Signika', sans-serif;
+  font-weight: 400;
+  position: relative;
+}
+
+h1,h2, h3, h4,
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav>li>a:focus
+{        
+  color: #000000;
+  font-family: 'Chewy', cursive;
+  font-weight: 400;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus {
+  background-color: transparent;
+}
+a:hover { text-decoration: none; }
+hr
+{
+  border: 1px solid #000000;
+  width: 100px;
+}
+
+/* start all section */
+.templatemo-section
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+/* end all section */
+
+/* start nagivation */
+.navbar-default
+{
+  background: #ffffff;
+  border: none;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+  box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+  margin: 0;
+  padding: 0;
+}
+.navbar-default .navbar-brand
+{
+  color: #000000;
+  font-size: 40px;
+  line-height: 35px;
+}
+.navbar-default .navbar-nav li a
+{
+  line-height: 35px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #555;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle
+{
+  border: none;
+  padding-top: 10px;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+  background: #000000;
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { background-color: transparent }
+/* end navigation */
