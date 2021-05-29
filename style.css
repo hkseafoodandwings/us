@@ -162,7 +162,7 @@ img
 }
 
 .flexslider .slides {
-  zoom: 0;
+  zoom: 1;
 }
 
 .carousel li {
