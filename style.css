@@ -33,17 +33,17 @@ img
 
 @media (min-width: 768px) {
   .container {
-    width: 700px;
+    width: 650px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 900px;
+    width: 850px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1000px;
+    width: 950;
   }
 }
 
@@ -238,7 +238,6 @@ img
   z-index: 10;
   overflow: hidden;
   cursor: pointer;
-  color: #000;
 }
 
 .flex-pauseplay a:before {
