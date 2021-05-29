@@ -148,7 +148,7 @@ img
 .flexslider {
   margin: 0;
   position: relative;
-  zoom: 1;
+  zoom: 0;
 }
 
 .flex-viewport {
@@ -162,7 +162,7 @@ img
 }
 
 .flexslider .slides {
-  zoom: 1;
+  zoom: 0;
 }
 
 .carousel li {
@@ -333,7 +333,7 @@ img
   }
 }
 .flexslider {
-  padding: 65px 0 0 0;
+  padding: 0 0 0 0;
 }
 
 .flexslider .slides > li {
