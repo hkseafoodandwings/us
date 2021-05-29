@@ -9,7 +9,7 @@ h1,h2, h3, h4,
 .navbar-default .navbar-nav li a,
 .navbar-default .navbar-nav>li>a:focus
 {        
-  color: #000000;
+  color: #ffa400;
   font-family: 'Chewy', cursive;
   font-weight: 400;
 }
@@ -21,7 +21,7 @@ h1,h2, h3, h4,
 a:hover { text-decoration: none; }
 hr
 {
-  border: 1px solid #000000;
+  border: 1px solid #ffa400;
   width: 100px;
 }
 
@@ -68,7 +68,7 @@ img
 }
 .navbar-default .navbar-brand
 {
-  color: #000000;
+  color: #ffa400;
   font-size: 40px;
   line-height: 35px;
 }
@@ -88,7 +88,7 @@ img
 }
 .navbar-default .navbar-toggle .icon-bar
 {
-  background: #000000;
+  background: #ffa400;
   border-color: transparent;
 }
 .navbar-default .navbar-toggle:hover,
