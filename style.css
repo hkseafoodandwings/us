@@ -412,9 +412,9 @@ html[xmlns] .slides {
 }
 .gallery-wrapper:hover
 {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
 }
 .gallery-des
 {
