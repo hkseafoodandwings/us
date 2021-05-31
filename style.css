@@ -1,6 +1,6 @@
 body
 {
-  font-family: 'Signika', sans-serif,'Sigmar One';
+  font-family: 'Sigmar One';
   font-weight: 400;
   position: relative;
 }
@@ -10,7 +10,7 @@ h1,h2, h3, h4,
 .navbar-default .navbar-nav>li>a:focus
 {        
   color: #000000;
-  font-family: 'Chewy', cursive;
+  font-family: 'Sigmar One';
   font-weight: 400;
 }
 
