@@ -196,28 +196,29 @@ img
 
 .flex-direction-nav .flex-prev {
   left: -50px;
-  margin-top: -4cm;
+  margin-top: -15cm;
 }
 
 .flex-direction-nav .flex-next {
   right: -50px;
-  margin-top: -4cm;
+  margin-top: -15cm;
 }
 
 .flexslider:hover .flex-prev {
   opacity: 1;
   left: 30px;
-  margin-top: -4cm;
+  margin-top: -15cm;
 }
 
 .flexslider:hover .flex-next {
   opacity: 1;
   right: 30px;
-  margin-top: -4cm;
+  margin-top: -15cm;
 }
 
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
   opacity: 1;
+  margin-top: -15cm;
 }
 
 .flex-direction-nav .flex-disabled {
@@ -231,10 +232,12 @@ img
   font-size: 24px;
   display: inline-block;
   content: '\f104';
+  margin-top: -15cm;
 }
 
 .flex-direction-nav a.flex-next:before {
   content: '\f105';
+  margin-top: -15cm;
 }
 
 /* Pause/Play */
@@ -257,6 +260,7 @@ img
   font-size: 20px;
   display: inline-block;
   content: '\f004';
+  margin-top: -15cm;
 }
 
 .flex-pauseplay a:hover {
