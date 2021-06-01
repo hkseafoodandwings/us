@@ -578,7 +578,7 @@ IPHONE 4-4S-5 PORTRAIT (320x568)
 /* Dropdown Button */
 .dropbtn {
     background-color: none;
-    color: white;
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -614,9 +614,4 @@ IPHONE 4-4S-5 PORTRAIT (320x568)
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
 }
