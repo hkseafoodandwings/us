@@ -580,7 +580,7 @@ IPHONE 4-4S-5 PORTRAIT (320x568)
     background-color: none;
     color: black;
     padding: 16px;
-    font-size: 3px;
+    font-size: 8px;
     border: none;
     cursor: pointer;
 }
@@ -618,6 +618,8 @@ IPHONE 4-4S-5 PORTRAIT (320x568)
 
 button {
   border: none;
+  padding: 16px;
+  font-size: 8px;
   background: none;
   text-decoration: none;
 }
