@@ -196,20 +196,24 @@ img
 
 .flex-direction-nav .flex-prev {
   left: -50px;
+  margin-top: -4cm;
 }
 
 .flex-direction-nav .flex-next {
   right: -50px;
+  margin-top: -4cm;
 }
 
 .flexslider:hover .flex-prev {
   opacity: 1;
   left: 30px;
+  margin-top: -4cm;
 }
 
 .flexslider:hover .flex-next {
   opacity: 1;
   right: 30px;
+  margin-top: -4cm;
 }
 
 .flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
