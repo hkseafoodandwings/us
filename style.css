@@ -586,8 +586,8 @@ IPHONE 4-4S-5 PORTRAIT (320x568)
   border: none;
   outline: none;
   color: white;
-  padding: 14px 143px;
-  background-color: red;
+  padding: 14px 30px;
+  background-color: none;
   font-size: 17px;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
