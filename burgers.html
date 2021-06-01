@@ -60,9 +60,9 @@
 	<div class="tm-paging-links" style="font-style:'Sigmar One'">
 		<nav>
 			<ul>
-				<li class="tm-paging-item"><a href="#" class="tm-paging-link active">Pizza</a></li>
-				<li class="tm-paging-item"><a href="#" class="tm-paging-link">Salad</a></li>
-				<li class="tm-paging-item"><a href="#" class="tm-paging-link">Noodle</a></li>
+				<li <button class="tablink" onclick="openPage('pizza', this, '#F75D59')" id="defaultOpen">PIZZA</button></li>
+				<li <button class="tablink" onclick="openPage('salad', this, '#F75D59')">SPECIALS</SALAD></li>
+				<li <button class="tablink" onclick="openPage('noodle', this, '#F75D59')">SPECIALS</NOODLE></li>
 			</ul>
 		</nav>
 	</div>
@@ -70,7 +70,7 @@
 	
 	<div class="row tm-gallery">
 		<!-- gallery page 1 -->
-		<div id="tm-gallery-page-pizza" class="tm-gallery-page">
+		<div id="pizza" class="tm-gallery-page" class="tabcontent">
 			<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
 				<figure>
 					<img src="tbd.jpg" alt="Image" class="img-fluid tm-gallery-img">
@@ -154,7 +154,7 @@
 			</div> <!-- gallery page 1 -->
 				
 		<!-- gallery page 2 -->
-		<div id="tm-gallery-page-salad" class="tm-gallery-page hidden">
+		<div id="salad" class="tm-gallery-page" class="tabcontent">
 			<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
 				<figure>
 					<img src="tbd.jpg" alt="Image" class="img-fluid tm-gallery-img">
@@ -235,7 +235,91 @@
 						</figcaption>
 					</figure>
 				</article>
-			</div> <!-- gallery page 1 -->
+			</div> <!-- gallery page 2 -->
+		
+		<!-- gallery page 3 -->
+		<div id="noodle" class="tm-gallery-page" class="tabcontent">
+			<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+				<figure>
+					<img src="tbd.jpg" alt="Image" class="img-fluid tm-gallery-img">
+						<figcaption>
+							<h4 class="tm-gallery-title">Fusce dictum finibus</h4>
+							<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+							<p class="tm-gallery-price">$45 / $55</p>
+						</figcaption>
+					</figure>
+				</article>
+			<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+				<figure>
+					<img src="img/gallery/02.jpg" alt="Image" class="img-fluid tm-gallery-img">
+						<figcaption>
+							<h4 class="tm-gallery-title">Aliquam sagittis</h4>
+							<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+							<p class="tm-gallery-price">$65 / $70</p>
+						</figcaption>
+					</figure>
+				</article>
+			<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+				<figure>
+					<img src="img/gallery/03.jpg" alt="Image" class="img-fluid tm-gallery-img">
+						<figcaption>
+							<h4 class="tm-gallery-title">Sed varius turpis</h4>
+							<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+							<p class="tm-gallery-price">$30.50</p>
+						</figcaption>
+					</figure>
+				</article>
+			<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+				<figure>
+					<img src="img/gallery/04.jpg" alt="Image" class="img-fluid tm-gallery-img">
+						<figcaption>
+							<h4 class="tm-gallery-title">Aliquam sagittis</h4>
+							<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+							<p class="tm-gallery-price">$25.50</p>
+						</figcaption>
+					</figure>
+				</article>
+			<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+				<figure>
+					<img src="img/gallery/05.jpg" alt="Image" class="img-fluid tm-gallery-img">
+						<figcaption>
+							<h4 class="tm-gallery-title">Maecenas eget justo</h4>
+							<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+							<p class="tm-gallery-price">$80.25</p>
+						</figcaption>
+					</figure>
+				</article>
+			<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+				<figure>
+					<img src="img/gallery/06.jpg" alt="Image" class="img-fluid tm-gallery-img">
+						<figcaption>
+							<h4 class="tm-gallery-title">Quisque et felis eros</h4>
+							<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+							<p class="tm-gallery-price">$20 / $40 / $60</p>
+						</figcaption>
+					</figure>
+				</article>
+			<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+				<figure>
+					<img src="img/gallery/07.jpg" alt="Image" class="img-fluid tm-gallery-img">
+						<figcaption>
+							<h4 class="tm-gallery-title">Sed ultricies dui</h4>
+							<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+							<p class="tm-gallery-price">$94</p>
+						</figcaption>
+					</figure>
+				</article>
+			<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+				<figure>
+					<img src="img/gallery/08.jpg" alt="Image" class="img-fluid tm-gallery-img">
+						<figcaption>
+							<h4 class="tm-gallery-title">Donec porta consequat</h4>
+							<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
+							<p class="tm-gallery-price">$15</p>
+						</figcaption>
+					</figure>
+				</article>
+			</div> <!-- gallery page 3 -->
 	</div>
 </main>
 				
@@ -271,5 +355,23 @@
 	<script src="https://WilsonHuaHung.github.io/HKOfficial/custom.js"></script>
 	<script src="https://WilsonHuaHung.github.io/HKOfficial/jquery.min.js"></script>
 	<script src="https://WilsonHuaHung.github.io/HKOfficial/parallax.min.js"></script>
+	<script>
+	function openPage(pageName,elmnt,color) {
+  		var i, tabcontent, tablinks;
+  		tabcontent = document.getElementsByClassName("tabcontent");
+  		for (i = 0; i < tabcontent.length; i++) {
+    			tabcontent[i].style.display = "none";
+ 		}
+  		tablinks = document.getElementsByClassName("tablink");
+  		for (i = 0; i < tablinks.length; i++) {
+    			tablinks[i].style.backgroundColor = "";
+  		}
+  		document.getElementById(pageName).style.display = "block";
+  		elmnt.style.backgroundColor = color;
+	}
+
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen").click();
+	</script>
 
 </html>
