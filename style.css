@@ -615,3 +615,9 @@ IPHONE 4-4S-5 PORTRAIT (320x568)
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+button {
+  border: none;
+  background: none;
+  text-decoration: none;
+}
