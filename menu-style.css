@@ -235,13 +235,6 @@ html {
   height: auto;
 }
 
-body {
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 17px;
-  background-color: #ccc;
-  overflow-x: hidden;
-}
-
 .container {
   background-color: white;
 }
@@ -824,7 +817,7 @@ address {
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   font-size: 1.2rem;
-  font-family: 'Open Sans', Helevetica, Arial, sans-serif;
+  font-family: 'Sigmar One', cursive;
   color: #999;
   background-color: transparent;
   border: 1px solid #d0d0d0;
@@ -868,7 +861,7 @@ address {
 }
 
 .accordion:after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Sigmar One', cursive;
   font-weight: 900;
   animation: changeIconBack 0.3s linear;
   content: '\f0d9';
