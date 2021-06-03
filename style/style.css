@@ -76,12 +76,12 @@ img
 .navbar-default .navbar-brand
 {
   color: #000000;
-  font-size: 100px;
-  line-height: 100px;
+  font-size: 60px;
+  line-height: 60px;
 }
 .navbar-default .navbar-nav li a
 {
-  line-height: 100px;
+  line-height: 60px;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover {
