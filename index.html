@@ -10,6 +10,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	if (document.body.clientWidth < /*screen width pixels*/) {
+  		viewport = document.querySelector("meta[name=viewport]");
+  		viewport.setAttribute('content', 'width<=1440, initial-scale=0.67, user-scalable=0');
+	}
   	
 	<link rel="stylesheet" href="https://WilsonHuaHung.github.io/HKOfficial/style/bootstrap.min.css">
 	<link rel="stylesheet" href="https://WilsonHuaHung.github.io/HKOfficial/style/style.css">
@@ -274,7 +278,4 @@
 	<script src="https://WilsonHuaHung.github.io/HKOfficial/java/plugins.js"></script>
 	<script src="https://WilsonHuaHung.github.io/HKOfficial/java/smoothscroll.js"></script>
 	<script src="https://WilsonHuaHung.github.io/HKOfficial/java/custom.js"></script>
-	<script language="javascript">
-		if(screen.width=<1400px) {document.write("<style>body{zoom:40%;}</style>");}
-	</script>
 </html>
